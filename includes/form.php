@@ -12,7 +12,7 @@ if (isset($_POST['name'])) {
 </head>
 <body>
 <form method="post" action="formtest.php">
-<select name="day">
+<select name="source">
   <option value="Player" selected>Player</option>
   <option value="Game">Game</option>
   <option value="Tournament">Tournament</option>
