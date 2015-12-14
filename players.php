@@ -26,6 +26,7 @@ while ($row = $result->fetch_assoc()) {
 echo "</table>";
 
 include_once 'includes/form.php';
+include_once 'includes/footer.php';
 
 
 ?>

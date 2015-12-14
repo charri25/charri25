@@ -1,2 +1,18 @@
-table { border-collapse: collapse; margin: 10px; }
+table { border-collapse: collapse; margin: 10px; color: #232124; }
+table, tr, th, td { border: 1px solid #000; color: #232124;}
+
+			table { border-collapse: collapse; margin: 10px; }
 table, tr, th, td { border: 1px solid #000; }
+header {border: 1px solid #000; text-align:center;width:100%; background-color:#AFA6B5; color: #232124;
+		font-family: 'Georgia';}
+footer {border-top: 1px solid #000; text-align:center;width:100%;margin-top: 10px; background-color:#AFA6B5; color:#424846;
+		font-family: 'Georgia';}
+body {background:#AFA6B5;
+		margin:0;
+		padding-left15px;
+		color: ##424846;
+		font-family: 'Georgia';}		
+#wrapper {width: 30%; margin-left: auto; margin-right:auto; }
+.error {color: red;}
+.message {color: blue;}
+

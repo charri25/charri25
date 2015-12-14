@@ -9,7 +9,7 @@ if ($conn->connect_error) die($conn->connect_error);
 
 if (isset($_GET['id'])) {
 	$id = sanitizeMySQL($conn, $_GET['id']);
-	$query = "SELECT * FROM games WHERE game_id=".$id;
+	$query = "SELECT * FROM games JOIN players ON player_id WHERE game_id=".$id;
 	$result = $conn->query($query);
 	if (!$result) die ("Invalid game id.");
 	$rows = $result->num_rows;
@@ -33,5 +33,6 @@ if (isset($_GET['id'])) {
 } else {
 	echo "No game id passed";
 }
-
+include_once 'includes/form.php';
+include_once 'includes/footer.php';
 ?>

@@ -1,5 +1,5 @@
 <?php
-
+include_once 'includes/header.php';
 require_once 'includes/login.php';
 require_once 'includes/functions.php';
 
@@ -31,5 +31,5 @@ if (isset($_GET['id'])) {
 } else {
 	echo "No pet id passed";
 }
-
+include_once 'includes/footer.php';
 ?>
